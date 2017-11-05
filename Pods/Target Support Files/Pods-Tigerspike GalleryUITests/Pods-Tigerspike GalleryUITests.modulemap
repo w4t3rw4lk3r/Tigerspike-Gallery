@@ -1,0 +1,6 @@
+framework module Pods_Tigerspike_GalleryUITests {
+  umbrella header "Pods-Tigerspike GalleryUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

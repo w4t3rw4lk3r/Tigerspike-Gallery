@@ -22,6 +22,9 @@
 		2EAB136A1FAF528500F9BFE3 /* GalleryItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB13691FAF528500F9BFE3 /* GalleryItemViewModel.swift */; };
 		2EAB136C1FAF529D00F9BFE3 /* GalleryImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB136B1FAF529D00F9BFE3 /* GalleryImageModel.swift */; };
 		2EAB136E1FAF545400F9BFE3 /* GalleryDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB136D1FAF545400F9BFE3 /* GalleryDownloadManager.swift */; };
+		359035C38E085EB567A4D030 /* Pods_Tigerspike_GalleryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB20D7651C340825D0E1F1ED /* Pods_Tigerspike_GalleryTests.framework */; };
+		87249CBB46E01EE217864E3E /* Pods_Tigerspike_Gallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C33DA2107BC9D874EBB096 /* Pods_Tigerspike_Gallery.framework */; };
+		C1FBBD305AF2E71579A82BF8 /* Pods_Tigerspike_GalleryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2BFF332DD5506DEBCD52C2 /* Pods_Tigerspike_GalleryUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,15 @@
 		2EAB13691FAF528500F9BFE3 /* GalleryItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItemViewModel.swift; sourceTree = "<group>"; };
 		2EAB136B1FAF529D00F9BFE3 /* GalleryImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryImageModel.swift; sourceTree = "<group>"; };
 		2EAB136D1FAF545400F9BFE3 /* GalleryDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryDownloadManager.swift; sourceTree = "<group>"; };
+		666E4CDF6B09AB9BB51EDBA7 /* Pods-Tigerspike Gallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tigerspike Gallery.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tigerspike Gallery/Pods-Tigerspike Gallery.release.xcconfig"; sourceTree = "<group>"; };
+		7E2BFF332DD5506DEBCD52C2 /* Pods_Tigerspike_GalleryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tigerspike_GalleryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81019AE5CC560588BE484791 /* Pods-Tigerspike GalleryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tigerspike GalleryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tigerspike GalleryUITests/Pods-Tigerspike GalleryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCED835A937A4BDD71C0A4FF /* Pods-Tigerspike GalleryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tigerspike GalleryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tigerspike GalleryUITests/Pods-Tigerspike GalleryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C542157D48C855EB568C39A1 /* Pods-Tigerspike Gallery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tigerspike Gallery.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tigerspike Gallery/Pods-Tigerspike Gallery.debug.xcconfig"; sourceTree = "<group>"; };
+		D13A77A47AEFE98B2CFBD545 /* Pods-Tigerspike GalleryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tigerspike GalleryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tigerspike GalleryTests/Pods-Tigerspike GalleryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB20D7651C340825D0E1F1ED /* Pods_Tigerspike_GalleryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tigerspike_GalleryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FFBE41137E7039ECA7D2A1 /* Pods-Tigerspike GalleryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tigerspike GalleryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tigerspike GalleryTests/Pods-Tigerspike GalleryTests.release.xcconfig"; sourceTree = "<group>"; };
+		F6C33DA2107BC9D874EBB096 /* Pods_Tigerspike_Gallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tigerspike_Gallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87249CBB46E01EE217864E3E /* Pods_Tigerspike_Gallery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				359035C38E085EB567A4D030 /* Pods_Tigerspike_GalleryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1FBBD305AF2E71579A82BF8 /* Pods_Tigerspike_GalleryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +112,8 @@
 				2EAB13451FAF42EE00F9BFE3 /* Tigerspike GalleryTests */,
 				2EAB13501FAF42EF00F9BFE3 /* Tigerspike GalleryUITests */,
 				2EAB132C1FAF42EE00F9BFE3 /* Products */,
+				8A1DD7214A3A52D3EFFB6FF3 /* Pods */,
+				6129461A04EC2BF51F5D05B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +166,29 @@
 			path = "Tigerspike GalleryUITests";
 			sourceTree = "<group>";
 		};
+		6129461A04EC2BF51F5D05B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6C33DA2107BC9D874EBB096 /* Pods_Tigerspike_Gallery.framework */,
+				EB20D7651C340825D0E1F1ED /* Pods_Tigerspike_GalleryTests.framework */,
+				7E2BFF332DD5506DEBCD52C2 /* Pods_Tigerspike_GalleryUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A1DD7214A3A52D3EFFB6FF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C542157D48C855EB568C39A1 /* Pods-Tigerspike Gallery.debug.xcconfig */,
+				666E4CDF6B09AB9BB51EDBA7 /* Pods-Tigerspike Gallery.release.xcconfig */,
+				D13A77A47AEFE98B2CFBD545 /* Pods-Tigerspike GalleryTests.debug.xcconfig */,
+				F1FFBE41137E7039ECA7D2A1 /* Pods-Tigerspike GalleryTests.release.xcconfig */,
+				81019AE5CC560588BE484791 /* Pods-Tigerspike GalleryUITests.debug.xcconfig */,
+				BCED835A937A4BDD71C0A4FF /* Pods-Tigerspike GalleryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EAB13561FAF42EF00F9BFE3 /* Build configuration list for PBXNativeTarget "Tigerspike Gallery" */;
 			buildPhases = (
+				8AAB46D91B72D5A85FF3AF13 /* [CP] Check Pods Manifest.lock */,
 				2EAB13271FAF42EE00F9BFE3 /* Sources */,
 				2EAB13281FAF42EE00F9BFE3 /* Frameworks */,
 				2EAB13291FAF42EE00F9BFE3 /* Resources */,
+				28DA415E7DB06A4ECAA4EA54 /* [CP] Embed Pods Frameworks */,
+				5C3A8F6B4651D4664E1708B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EAB13591FAF42EF00F9BFE3 /* Build configuration list for PBXNativeTarget "Tigerspike GalleryTests" */;
 			buildPhases = (
+				2556D64B0EEED6B8C5A9A7AA /* [CP] Check Pods Manifest.lock */,
 				2EAB133E1FAF42EE00F9BFE3 /* Sources */,
 				2EAB133F1FAF42EE00F9BFE3 /* Frameworks */,
 				2EAB13401FAF42EE00F9BFE3 /* Resources */,
+				0D1EA36F6606E97DF2E847EE /* [CP] Embed Pods Frameworks */,
+				268314E67136C49DA8D17D0D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EAB135C1FAF42EF00F9BFE3 /* Build configuration list for PBXNativeTarget "Tigerspike GalleryUITests" */;
 			buildPhases = (
+				143B4C2D9FD5FA91DDAE83CD /* [CP] Check Pods Manifest.lock */,
 				2EAB13491FAF42EF00F9BFE3 /* Sources */,
 				2EAB134A1FAF42EF00F9BFE3 /* Frameworks */,
 				2EAB134B1FAF42EF00F9BFE3 /* Resources */,
+				F81E336E6870B38505432E4A /* [CP] Embed Pods Frameworks */,
+				E5980A03919E33C66546AF84 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -278,6 +327,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D1EA36F6606E97DF2E847EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tigerspike GalleryTests/Pods-Tigerspike GalleryTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		143B4C2D9FD5FA91DDAE83CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tigerspike GalleryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2556D64B0EEED6B8C5A9A7AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tigerspike GalleryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		268314E67136C49DA8D17D0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tigerspike GalleryTests/Pods-Tigerspike GalleryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28DA415E7DB06A4ECAA4EA54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tigerspike Gallery/Pods-Tigerspike Gallery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C3A8F6B4651D4664E1708B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tigerspike Gallery/Pods-Tigerspike Gallery-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AAB46D91B72D5A85FF3AF13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tigerspike Gallery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5980A03919E33C66546AF84 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tigerspike GalleryUITests/Pods-Tigerspike GalleryUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F81E336E6870B38505432E4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tigerspike GalleryUITests/Pods-Tigerspike GalleryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2EAB13271FAF42EE00F9BFE3 /* Sources */ = {
@@ -456,6 +652,7 @@
 		};
 		2EAB13571FAF42EF00F9BFE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C542157D48C855EB568C39A1 /* Pods-Tigerspike Gallery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +667,7 @@
 		};
 		2EAB13581FAF42EF00F9BFE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 666E4CDF6B09AB9BB51EDBA7 /* Pods-Tigerspike Gallery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +682,7 @@
 		};
 		2EAB135A1FAF42EF00F9BFE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D13A77A47AEFE98B2CFBD545 /* Pods-Tigerspike GalleryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -500,6 +699,7 @@
 		};
 		2EAB135B1FAF42EF00F9BFE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1FFBE41137E7039ECA7D2A1 /* Pods-Tigerspike GalleryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +716,7 @@
 		};
 		2EAB135D1FAF42EF00F9BFE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81019AE5CC560588BE484791 /* Pods-Tigerspike GalleryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +732,7 @@
 		};
 		2EAB135E1FAF42EF00F9BFE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCED835A937A4BDD71C0A4FF /* Pods-Tigerspike GalleryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
