@@ -8,6 +8,7 @@ target 'Tigerspike Gallery' do
   # Pods for Tigerspike Gallery
   pod 'Alamofire'
   pod 'HexString'
+  pod 'AlamofireRSSParser'
   
 
   target 'Tigerspike GalleryTests' do
