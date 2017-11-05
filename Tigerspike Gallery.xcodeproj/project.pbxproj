@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		2EAB132F1FAF42EE00F9BFE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB132E1FAF42EE00F9BFE3 /* AppDelegate.swift */; };
-		2EAB13311FAF42EE00F9BFE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB13301FAF42EE00F9BFE3 /* ViewController.swift */; };
 		2EAB13341FAF42EE00F9BFE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EAB13321FAF42EE00F9BFE3 /* Main.storyboard */; };
 		2EAB13371FAF42EE00F9BFE3 /* Tigerspike_Gallery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB13351FAF42EE00F9BFE3 /* Tigerspike_Gallery.xcdatamodeld */; };
 		2EAB13391FAF42EE00F9BFE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EAB13381FAF42EE00F9BFE3 /* Assets.xcassets */; };
 		2EAB133C1FAF42EE00F9BFE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EAB133A1FAF42EE00F9BFE3 /* LaunchScreen.storyboard */; };
 		2EAB13471FAF42EE00F9BFE3 /* Tigerspike_GalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB13461FAF42EE00F9BFE3 /* Tigerspike_GalleryTests.swift */; };
 		2EAB13521FAF42EF00F9BFE3 /* Tigerspike_GalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB13511FAF42EF00F9BFE3 /* Tigerspike_GalleryUITests.swift */; };
+		2EAB13601FAF4DE300F9BFE3 /* GalleryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB135F1FAF4DE300F9BFE3 /* GalleryCollectionViewController.swift */; };
+		2EAB13621FAF4F1100F9BFE3 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB13611FAF4F1100F9BFE3 /* AppConfiguration.swift */; };
+		2EAB13641FAF509000F9BFE3 /* GalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB13631FAF509000F9BFE3 /* GalleryViewModel.swift */; };
+		2EAB13671FAF525800F9BFE3 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB13651FAF525800F9BFE3 /* GalleryCollectionViewCell.swift */; };
+		2EAB13681FAF525800F9BFE3 /* GalleryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EAB13661FAF525800F9BFE3 /* GalleryCollectionViewCell.xib */; };
+		2EAB136A1FAF528500F9BFE3 /* GalleryItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB13691FAF528500F9BFE3 /* GalleryItemViewModel.swift */; };
+		2EAB136C1FAF529D00F9BFE3 /* GalleryImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB136B1FAF529D00F9BFE3 /* GalleryImageModel.swift */; };
+		2EAB136E1FAF545400F9BFE3 /* GalleryDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB136D1FAF545400F9BFE3 /* GalleryDownloadManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +44,6 @@
 /* Begin PBXFileReference section */
 		2EAB132B1FAF42EE00F9BFE3 /* Tigerspike Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tigerspike Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAB132E1FAF42EE00F9BFE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2EAB13301FAF42EE00F9BFE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2EAB13331FAF42EE00F9BFE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EAB13361FAF42EE00F9BFE3 /* Tigerspike_Gallery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tigerspike_Gallery.xcdatamodel; sourceTree = "<group>"; };
 		2EAB13381FAF42EE00F9BFE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		2EAB134D1FAF42EF00F9BFE3 /* Tigerspike GalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tigerspike GalleryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAB13511FAF42EF00F9BFE3 /* Tigerspike_GalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tigerspike_GalleryUITests.swift; sourceTree = "<group>"; };
 		2EAB13531FAF42EF00F9BFE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EAB135F1FAF4DE300F9BFE3 /* GalleryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewController.swift; sourceTree = "<group>"; };
+		2EAB13611FAF4F1100F9BFE3 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		2EAB13631FAF509000F9BFE3 /* GalleryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewModel.swift; sourceTree = "<group>"; };
+		2EAB13651FAF525800F9BFE3 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		2EAB13661FAF525800F9BFE3 /* GalleryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryCollectionViewCell.xib; sourceTree = "<group>"; };
+		2EAB13691FAF528500F9BFE3 /* GalleryItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItemViewModel.swift; sourceTree = "<group>"; };
+		2EAB136B1FAF529D00F9BFE3 /* GalleryImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryImageModel.swift; sourceTree = "<group>"; };
+		2EAB136D1FAF545400F9BFE3 /* GalleryDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryDownloadManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +114,19 @@
 			isa = PBXGroup;
 			children = (
 				2EAB132E1FAF42EE00F9BFE3 /* AppDelegate.swift */,
-				2EAB13301FAF42EE00F9BFE3 /* ViewController.swift */,
 				2EAB13321FAF42EE00F9BFE3 /* Main.storyboard */,
+				2EAB135F1FAF4DE300F9BFE3 /* GalleryCollectionViewController.swift */,
+				2EAB13651FAF525800F9BFE3 /* GalleryCollectionViewCell.swift */,
+				2EAB13661FAF525800F9BFE3 /* GalleryCollectionViewCell.xib */,
+				2EAB13691FAF528500F9BFE3 /* GalleryItemViewModel.swift */,
+				2EAB136B1FAF529D00F9BFE3 /* GalleryImageModel.swift */,
+				2EAB136D1FAF545400F9BFE3 /* GalleryDownloadManager.swift */,
+				2EAB13631FAF509000F9BFE3 /* GalleryViewModel.swift */,
 				2EAB13381FAF42EE00F9BFE3 /* Assets.xcassets */,
 				2EAB133A1FAF42EE00F9BFE3 /* LaunchScreen.storyboard */,
 				2EAB133D1FAF42EE00F9BFE3 /* Info.plist */,
 				2EAB13351FAF42EE00F9BFE3 /* Tigerspike_Gallery.xcdatamodeld */,
+				2EAB13611FAF4F1100F9BFE3 /* AppConfiguration.swift */,
 			);
 			path = "Tigerspike Gallery";
 			sourceTree = "<group>";
@@ -236,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EAB133C1FAF42EE00F9BFE3 /* LaunchScreen.storyboard in Resources */,
+				2EAB13681FAF525800F9BFE3 /* GalleryCollectionViewCell.xib in Resources */,
 				2EAB13391FAF42EE00F9BFE3 /* Assets.xcassets in Resources */,
 				2EAB13341FAF42EE00F9BFE3 /* Main.storyboard in Resources */,
 			);
@@ -262,9 +284,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EAB13311FAF42EE00F9BFE3 /* ViewController.swift in Sources */,
+				2EAB136A1FAF528500F9BFE3 /* GalleryItemViewModel.swift in Sources */,
 				2EAB132F1FAF42EE00F9BFE3 /* AppDelegate.swift in Sources */,
+				2EAB136E1FAF545400F9BFE3 /* GalleryDownloadManager.swift in Sources */,
+				2EAB13671FAF525800F9BFE3 /* GalleryCollectionViewCell.swift in Sources */,
+				2EAB13641FAF509000F9BFE3 /* GalleryViewModel.swift in Sources */,
 				2EAB13371FAF42EE00F9BFE3 /* Tigerspike_Gallery.xcdatamodeld in Sources */,
+				2EAB13621FAF4F1100F9BFE3 /* AppConfiguration.swift in Sources */,
+				2EAB136C1FAF529D00F9BFE3 /* GalleryImageModel.swift in Sources */,
+				2EAB13601FAF4DE300F9BFE3 /* GalleryCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
