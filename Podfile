@@ -6,6 +6,9 @@ target 'Tigerspike Gallery' do
   use_frameworks!
 
   # Pods for Tigerspike Gallery
+  pod 'Alamofire'
+  pod 'HexString'
+  
 
   target 'Tigerspike GalleryTests' do
     inherit! :search_paths

@@ -11,7 +11,7 @@ import UIKit
 class GalleryCollectionViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
     @IBOutlet weak var galleryCollectionView: UICollectionView!
-    var galleryViewModel: GalleryViewModel!
+    var galleryViewModel:GalleryViewModel!
     
     //MARK: View Lifecycle
     override func viewDidLoad() {
