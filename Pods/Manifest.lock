@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.5.0)
+  - AlamofireImage (3.3.0):
+    - Alamofire (~> 4.5)
+  - AlamofireRSSParser (2.0.1):
+    - Alamofire
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - AlamofireRSSParser
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
+  AlamofireRSSParser: 86243cd156b94b9d97d8f915fa44a0f15bd1bfb7
+
+PODFILE CHECKSUM: 3b59bf424596dea63fd38fe9f14ec61efe3967dd
+
+COCOAPODS: 1.3.1
