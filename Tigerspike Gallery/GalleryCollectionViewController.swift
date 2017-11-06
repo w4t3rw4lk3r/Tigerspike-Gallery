@@ -11,21 +11,23 @@ import UIKit
 class GalleryCollectionViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
     @IBOutlet weak var galleryCollectionView: UICollectionView!
-    var galleryViewModel:GalleryViewModel!
+    fileprivate var galleryItems:[GalleryImageModel] = []
+    var galleryDownloadManager:GalleryDownloadManager!
     
     //MARK: View Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        registerReusableViews()
+        setupCollectionView()
+        fetchFeed(from: Configuration.DataSource.feedURL)
     }
-    
+    //MARK: Setup
     func registerReusableViews(){
-        
+        galleryCollectionView.register(UINib(nibName: Configuration.DataSource.collectionCellNibName, bundle: nil), forCellWithReuseIdentifier: Configuration.DataSource.collectionCellReuseIdentifier)
     }
     
     func setupCollectionView(){
-        galleryViewModel = GalleryViewModel()
         galleryCollectionView.delegate = self
         galleryCollectionView.dataSource = self
         
@@ -33,18 +35,36 @@ class GalleryCollectionViewController: UIViewController, UICollectionViewDataSou
         flowLayout.estimatedItemSize = UICollectionViewFlowLayoutAutomaticSize
     }
     
-    //MARK: Collection view datasource & delegate methods.
+    //MARK: Image Service Interaction.
+    func fetchFeed(from urlString:String){
+        galleryDownloadManager.getRSSFeed(urlString: urlString, completionHandler: { response in
+                self.galleryItems = response!
+            DispatchQueue.main.async {
+                self.galleryCollectionView.reloadData()
+            }
+        })
+    }
     
+    //MARK: Collection view datasource & delegate methods.
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return Configuration.DataSource.kNumberOfItemsInSection
+        return Configuration.DataSource.numberOfItemsInSection
     }
  
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        //should be the datasource array count.
-        return 10
+        return galleryItems.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        
+        let cell = galleryCollectionView.dequeueReusableCell(withReuseIdentifier: Configuration.DataSource.collectionCellReuseIdentifier, for: indexPath) as! GalleryCollectionViewCell
+        cell.galleryDownloadDependency = galleryDownloadManager
+        cell.prepareForData(with: galleryItems[indexPath.row])
+        cell.contentView.alpha = 0
+        return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        UIView.animate(withDuration: 0.8, animations: {
+            cell.contentView.alpha = 1.0
+        })
     }
 }

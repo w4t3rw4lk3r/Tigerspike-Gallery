@@ -24,9 +24,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-## AlamofireRSSParser
+## AlamofireImage
 
-Copyright (c) 2016 Don Angelillo <dangelillo@gmail.com>
+Copyright (c) 2015-2017 Alamofire Software Foundation (http://alamofire.org/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -47,9 +47,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-## HexString
+## AlamofireRSSParser
 
-Copyright (c) 2015 Jason Nam (http://www.jasonnam.com)
+Copyright (c) 2016 Don Angelillo <dangelillo@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

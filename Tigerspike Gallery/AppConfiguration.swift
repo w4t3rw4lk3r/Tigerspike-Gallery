@@ -9,14 +9,12 @@
 import UIKit
 
 struct Configuration {
-    struct Errors {
-        static let kDownloadFailedImage:String = "imageNotFound.png"
-        static let kUnavailableImage:String = "unavailableImage.jpg"
-        static let kUnavailableImageMessage:String = "No Images"
-    }
     
     struct DataSource {
-        //Collection view columns.
-        static let kNumberOfItemsInSection:Int = 1
+        static let feedURL:String = "https://api.flickr.com/services/feeds/photos_public.gne"
+        //Collection view
+        static let numberOfItemsInSection:Int = 1
+        static let collectionCellReuseIdentifier:String = "galleryCollectionCell"
+        static let collectionCellNibName:String = "GalleryCollectionViewCell"
     }
 }

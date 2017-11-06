@@ -11,16 +11,70 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="GalleryCollectionViewCell" customModule="Tigerspike_Gallery" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="442" height="266"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="galleryCollectionCell" id="gTV-IL-0wX" customClass="GalleryCollectionViewCell" customModule="Tigerspike_Gallery" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="289" height="266"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="442" height="266"/>
+                <rect key="frame" x="0.0" y="0.0" width="289" height="266"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Alm-a4-pz6">
+                        <rect key="frame" x="0.0" y="0.0" width="289" height="266"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FullSizeRender-6" translatesAutoresizingMaskIntoConstraints="NO" id="sAI-ZT-hlL">
+                                <rect key="frame" x="8" y="8" width="273" height="190"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="273" id="iQf-Gj-8xf"/>
+                                    <constraint firstAttribute="height" constant="190" id="yiZ-oP-m32"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image title" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zms-89-x8T">
+                                <rect key="frame" x="8" y="205.5" width="273" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image date" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yek-iE-TWc">
+                                <rect key="frame" x="8" y="233" width="273" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Zms-89-x8T" secondAttribute="trailing" constant="8" id="5Mr-Ye-JDv"/>
+                            <constraint firstItem="Zms-89-x8T" firstAttribute="top" secondItem="sAI-ZT-hlL" secondAttribute="bottom" constant="8" id="7Zh-WP-fb6"/>
+                            <constraint firstItem="sAI-ZT-hlL" firstAttribute="leading" secondItem="Alm-a4-pz6" secondAttribute="leading" constant="8" id="PQB-8l-yOE"/>
+                            <constraint firstItem="Zms-89-x8T" firstAttribute="leading" secondItem="Alm-a4-pz6" secondAttribute="leading" constant="8" id="Vfv-14-ltT"/>
+                            <constraint firstAttribute="trailing" secondItem="sAI-ZT-hlL" secondAttribute="trailing" constant="8" id="YGM-CD-YBI"/>
+                            <constraint firstItem="sAI-ZT-hlL" firstAttribute="top" secondItem="Alm-a4-pz6" secondAttribute="top" constant="8" id="apd-Iz-v2v"/>
+                            <constraint firstAttribute="bottom" secondItem="yek-iE-TWc" secondAttribute="bottom" constant="16" id="eKV-x2-DGG"/>
+                            <constraint firstAttribute="trailing" secondItem="yek-iE-TWc" secondAttribute="trailing" constant="8" id="oQq-LB-ytz"/>
+                            <constraint firstItem="yek-iE-TWc" firstAttribute="leading" secondItem="Alm-a4-pz6" secondAttribute="leading" constant="8" id="pPh-Me-E4z"/>
+                            <constraint firstItem="yek-iE-TWc" firstAttribute="top" secondItem="Zms-89-x8T" secondAttribute="bottom" constant="8" id="u6A-DT-NK4"/>
+                        </constraints>
+                    </view>
+                </subviews>
             </view>
+            <constraints>
+                <constraint firstItem="Alm-a4-pz6" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="0Se-nR-Gbb"/>
+                <constraint firstAttribute="bottom" secondItem="Alm-a4-pz6" secondAttribute="bottom" id="BK2-HL-JRi"/>
+                <constraint firstItem="Alm-a4-pz6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ZgN-3v-eo4"/>
+                <constraint firstAttribute="trailing" secondItem="Alm-a4-pz6" secondAttribute="trailing" id="k0U-cK-UBb"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
-            <size key="customSize" width="442" height="266"/>
-            <point key="canvasLocation" x="-349" y="-104"/>
+            <size key="customSize" width="289" height="266"/>
+            <connections>
+                <outlet property="imageDateLabel" destination="yek-iE-TWc" id="py3-YV-25W"/>
+                <outlet property="imageTitleLabel" destination="Zms-89-x8T" id="emd-lp-G4b"/>
+                <outlet property="imageView" destination="sAI-ZT-hlL" id="8wW-TK-Tf1"/>
+                <outlet property="whiteCard" destination="Alm-a4-pz6" id="oTn-6z-vcx"/>
+            </connections>
+            <point key="canvasLocation" x="-425.5" y="-104"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="FullSizeRender-6" width="2320" height="3088"/>
+    </resources>
 </document>

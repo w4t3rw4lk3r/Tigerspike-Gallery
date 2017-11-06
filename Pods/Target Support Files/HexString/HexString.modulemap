@@ -1,6 +1,0 @@
-framework module HexString {
-  umbrella header "HexString-umbrella.h"
-
-  export *
-  module * { export * }
-}
